@@ -1,0 +1,77 @@
+.carttodesign{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    flex-direction: column;
+    gap:50px;
+    background-color: white;
+    width:80%;
+    
+}
+.cartitemdesign{
+    display: flex;
+    gap:50px;
+    margin-left: 70px;
+    background-color: white;
+    height:200px;
+    width:93%;
+}
+
+.toimg{
+    display: flex;
+     justify-content: center;
+    align-items: center;
+    width: 33vh;
+
+}
+.toimg img{
+    width:auto;
+    height: 25vh;
+}
+.leftalign{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    width:500px;
+
+}
+.cartitemdesign h2{
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.prizing{
+    margin-left: 210px;
+}
+.btntoaddrevome{
+    border:2px solid rgb(255, 174, 0);
+    border-radius: 20px;
+    width:70px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px;
+    
+}
+.deletbtn{
+    width:95%;
+    height:35px;
+    background-color: orange;
+    border-color: yellow;
+    margin:0px 10px 0px 30px;
+}
+.deletbtn:hover{
+    background-color: rgba(255, 166, 0, 0.795);
+}
+.todeleteparticular{
+    padding-left: 10px;
+    border-left:1px solid grey ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height:"2vh";
+    color: teal;
+    cursor: pointer;
+}

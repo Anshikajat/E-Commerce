@@ -1,0 +1,66 @@
+.Maingap{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+
+}
+.minnav{
+    display: flex;
+    justify-content: space-around;
+    padding:20px;
+    border-bottom:2px solid rgba(0, 0, 0, 0.315) ;
+    background-color: white;
+    
+}
+.minnav .toalign{
+      text-decoration: none;
+      color: black;
+      font-size: 13px;
+}
+.minnav .toalign:hover{
+    text-decoration: underline;
+    text-decoration-color:orange ;
+    text-decoration-thickness: 2px;
+}
+.cartitems{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    
+}
+
+
+.fristcardd{
+    text-align: center;
+    background-size: cover;
+    width:500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 245px;
+    
+}
+.fristcardd img{
+     height: 100%;
+    
+     
+}
+.cardd{
+    background-color: white;
+    display: flex;
+    
+    column-gap: 10px;
+    width:75%;
+    align-items: center;
+    border: 2px solid rgba(0, 0, 0, 0.315);
+    
+}
+.secondcardd{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    padding: 10px;
+    }

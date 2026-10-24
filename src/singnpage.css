@@ -1,0 +1,226 @@
+.maina {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: white;
+}
+
+.imagea {
+    margin: 20px 0;
+}
+
+#logoa {
+    width: 103px;
+    height: auto;
+}
+
+.lalaa {
+    width: 300px;
+    padding: 20px 26px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 22px;
+}
+
+.heada {
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
+
+#onea {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+#twoa {
+    width: 93%;
+    height: 25px;
+    padding: 2px 7px;
+    border: 1px solid #a6a6a6;
+    border-radius: 3px;
+    margin-top: 4px;
+    margin-left: 1px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .5), 0 1px 0 rgba(0, 0, 0, .07) inset;
+}
+
+#twoa:focus {
+    border-color: black;
+    box-shadow: 0 0 5px 2px #8adff9;
+    outline: none;
+}
+
+#threea {
+    margin-top: -5px;
+    width: 100%;
+    height: 31px;
+    background: #FFD814;
+    border: 1px solid #FCD200;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 200;
+    box-shadow: 0 2px 5px 0 rgba(213, 217, 217, .5);
+}
+
+#threea:hover {
+    background: #F7CA00;
+}
+
+#foura {
+    font-size: 12px;
+    margin-top: 15px;
+    line-height: 1.5;
+}
+
+#fivea,
+#sixa {
+    color: #0066c0;
+    text-decoration: underline;
+}
+
+#fivea.head,
+#sixa:hover {
+    color: #c45500;
+    text-decoration: underline;
+}
+
+#sevena {
+    margin-top: 8px;
+}
+
+#eighta {
+    color: #0066c0;
+    cursor: pointer;
+    font-size: 13px;
+    margin-top: 2px;
+}
+
+#eighta:hover {
+    color: #c45500;
+    text-decoration: underline;
+}
+
+#ninea {
+    margin-left: 17px;
+    font-size: 13px;
+}
+
+#tena,
+#elevena {
+    display: block;
+    color: #0066c0;
+    text-decoration: none;
+    margin: 4px 0;
+    cursor: pointer;
+}
+
+#tena:hover,
+#elevena:hover {
+    color: #c45500;
+    text-decoration: underline;
+}
+
+#twelevea {
+    margin-top: 5px;
+    padding-top: 20px;
+    padding-bottom: 8px;
+    border-top: 1px solid #e7e7e7;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#thirteena {
+    height: 12vh;
+    width: 10vh;
+    align-items: baseline;
+    justify-content: flex-end;
+    padding-bottom: 3vh;
+    font-size: 1.9vh;
+    font-weight: 100;
+    color: #0066c0;
+    text-decoration: none;
+}
+
+#thirteena:hover {
+    color: #c45500;
+    text-decoration: underline;
+}
+
+#fouteena {
+    text-align: center;
+    padding-top: 1px;
+    margin-bottom: 14px;
+    line-height: 0;
+    font-size: 12px;
+    font-weight: 400;
+    color: grey;
+    z-index: 2;
+}
+
+#fouteena::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 44px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#fouteena span {
+    background-color: #fff;
+    padding: 0 8px;
+    line-height: 1;
+    z-index: 2;
+    position: relative;
+}
+#button {
+    width: 350px;
+    height: 31px;
+    border: 1px solid #ddd;
+    background: #FFF;
+    border-radius: 8px;
+
+    cursor: pointer;
+    margin-bottom: 26px;
+}
+
+#button{
+    background: #F7FAFA;
+}
+
+#footera {
+    width: 100vw;
+    height: 30vh;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #fff;
+    box-shadow: 1px 0 1px 0 grey;
+    padding-top: 26px;
+    text-align: center;
+}
+
+#linksa {
+    margin-bottom: 10px;
+}
+
+#linksa a {
+    color: #0066c0;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+#linksa a:hover {
+    color: #c45500;
+    text-decoration: underline;
+}
+
+#finala {
+    font-size: 11px;
+    color: #555;
+}

@@ -1,0 +1,79 @@
+
+.byby{
+    background-color: rgba(0, 0, 0, 0.332);
+    margin-top: -98px;
+    border: 1px solid yellow;
+    overflow: hidden;
+    z-index: 1;
+    height: 100vh;
+    width: 100vw;
+
+}
+.toblack {
+    
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 250px;
+        height: 100%;
+        background-color: #333;
+        color: white;
+        padding: 20px;
+        z-index: 1000;
+      }
+
+header{
+    margin-top: -30vh;
+}
+
+.sidebar {
+    border: 1px solid black;
+    width: 350px;
+    height: 700px;
+    
+    display: flex;
+
+    flex-direction: column;
+    background-color: white;
+    overflow: scroll;
+}
+
+.hellosign {
+    height: 50px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+
+.downside {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.downside h2 {
+    font-size: 20px;
+    margin: 15px 0px 0px 30px;
+
+}
+
+.downside p {
+    font-size: 15px;
+}
+
+.downsideitem {
+    align-items: center;
+    display: flex;
+    height: 35px;
+    margin-left: 30px;
+    margin-right: 12px;
+    justify-content: space-between;
+}
+
+.wholeitwm {}
+
+.wholeitwm:hover {
+    background-color: rgba(128, 128, 128, 0.46);
+}

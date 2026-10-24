@@ -1,0 +1,129 @@
+.upperpart{
+    
+    position: relative;
+    z-index: 10;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-width: 1000px;
+    height: 60px;
+    font-size: 16px;
+    box-shadow: 0 0 12px 0 rgba(0, 0, 0, .25);
+    background: #007185;
+    color: #fff;
+    margin-left: 15px;
+}
+
+.upperpart a{
+    color:white;
+    font-weight:500;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 15px;
+}
+.upperpart a:hover{
+    text-decoration: underline;
+}
+.vline{
+    height: 35px;
+    margin-top: 1px;
+}
+.welcompart{
+    color: white;
+    padding: 45px 0px 75px 130px;
+    
+}
+.welcompart h1{
+    font-weight: 450;
+}
+.welcompart h2{
+      font-size: 18px;
+      font-weight: 500;
+}
+.cardpics{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:30px;
+    width:90%;
+
+}
+.cardmainn{
+    background-color: white;
+    display: flex;
+    color: black;
+    align-items: center;
+    border-radius:5px ;
+    column-gap:15px ;
+}
+.cardmainn img{
+    height:90px;
+}
+.lowerpart{
+
+    background-color: #F7FAFA;
+}
+.lowerinner{
+    width:90%; 
+    padding: 45px 0px 75px 130px;
+    
+}
+.lowerinput{
+    width:92%;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius:5px ;
+    margin-top: 10px;
+     }
+.lowerinner input{
+    border: none;
+    outline: none;
+    text-decoration: none;
+    height: 30px;
+}
+.lowerinput:hover{
+    border :3px solid teal;
+}
+.lowerleft{
+    display:flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+.lowerpartitem{
+    height: 43px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    width:220px;
+    border-radius: 7px;
+}
+.lowerpartitem div{
+
+    border: none;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+.lowerpartitem:hover{
+    background-color: rgba(128, 128, 128, 0.333);
+
+}
+.lowerpartright{
+    display: grid;
+    column-gap: 40px;
+    
+    grid-template-columns: repeat(2, 1fr);
+    margin: 35px 0px 0px 60px;
+}
+.lowerpartrightinner{
+    border:1px solid rgba(128, 128, 128, 0.571);
+    width:450px;
+    height:100px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    row-gap: 7px;
+
+}
+.lowerpartrightinner:hover{
+    background-color: inherit;
+}
